@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 14px;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 5px;
+}
+
+.card{
+    
+    margin-top: 25px;
+    /* height: 250px; */
+    width: 250px;
+    color: black;
+    background-color: rgb(167, 167, 37);
+    
+}
+
+#sub{
+    padding: 5px;
+    background-color: green;
+    color: azure;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size:large;
+}
+
+.allcards{
+    display: flex;
+    gap: 16px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px;
+}
